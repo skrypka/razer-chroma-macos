@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309D4B4421DB99E8001675C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309D4B4321DB99E8001675C6 /* main.m */; };
+		309F23F121DB9B3F00A27B95 /* GERazerUtils.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E221DB9B3F00A27B95 /* GERazerUtils.h */; };
+		309F23F221DB9B3F00A27B95 /* GERazerStandardBehavior.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E321DB9B3F00A27B95 /* GERazerStandardBehavior.c */; };
+		309F23F321DB9B3F00A27B95 /* GERazerMessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E421DB9B3F00A27B95 /* GERazerMessage.c */; };
+		309F23F421DB9B3F00A27B95 /* GERazerChroma.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E521DB9B3F00A27B95 /* GERazerChroma.c */; };
+		309F23F521DB9B3F00A27B95 /* GERazerStandardMessages.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E621DB9B3F00A27B95 /* GERazerStandardMessages.h */; };
+		309F23F621DB9B3F00A27B95 /* GERazerMessage.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E721DB9B3F00A27B95 /* GERazerMessage.h */; };
+		309F23F721DB9B3F00A27B95 /* GERazerIPC.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E821DB9B3F00A27B95 /* GERazerIPC.h */; };
+		309F23F821DB9B3F00A27B95 /* GERazerChroma.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23E921DB9B3F00A27B95 /* GERazerChroma.h */; };
+		309F23F921DB9B3F00A27B95 /* GERazerKit.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23EA21DB9B3F00A27B95 /* GERazerKit.h */; };
+		309F23FA21DB9B3F00A27B95 /* GERazerStandardMessages.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23EB21DB9B3F00A27B95 /* GERazerStandardMessages.c */; };
+		309F23FB21DB9B3F00A27B95 /* GERazerMamba.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23ED21DB9B3F00A27B95 /* GERazerMamba.h */; };
+		309F23FC21DB9B3F00A27B95 /* GERazerIPC.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23EE21DB9B3F00A27B95 /* GERazerIPC.c */; };
+		309F23FD21DB9B3F00A27B95 /* GERazerStandardBehavior.h in Sources */ = {isa = PBXBuildFile; fileRef = 309F23EF21DB9B3F00A27B95 /* GERazerStandardBehavior.h */; };
+		309F23FE21DB9B3F00A27B95 /* GERazerUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 309F23F021DB9B3F00A27B95 /* GERazerUtils.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		309D4B3E21DB99E8001675C6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		309D4B4021DB99E8001675C6 /* chroma */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chroma; sourceTree = BUILT_PRODUCTS_DIR; };
+		309D4B4321DB99E8001675C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309F23E221DB9B3F00A27B95 /* GERazerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerUtils.h; path = chroma/GERazerUtils.h; sourceTree = "<group>"; };
+		309F23E321DB9B3F00A27B95 /* GERazerStandardBehavior.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerStandardBehavior.c; path = chroma/GERazerStandardBehavior.c; sourceTree = "<group>"; };
+		309F23E421DB9B3F00A27B95 /* GERazerMessage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerMessage.c; path = chroma/GERazerMessage.c; sourceTree = "<group>"; };
+		309F23E521DB9B3F00A27B95 /* GERazerChroma.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerChroma.c; path = chroma/GERazerChroma.c; sourceTree = "<group>"; };
+		309F23E621DB9B3F00A27B95 /* GERazerStandardMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerStandardMessages.h; path = chroma/GERazerStandardMessages.h; sourceTree = "<group>"; };
+		309F23E721DB9B3F00A27B95 /* GERazerMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerMessage.h; path = chroma/GERazerMessage.h; sourceTree = "<group>"; };
+		309F23E821DB9B3F00A27B95 /* GERazerIPC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerIPC.h; path = chroma/GERazerIPC.h; sourceTree = "<group>"; };
+		309F23E921DB9B3F00A27B95 /* GERazerChroma.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerChroma.h; path = chroma/GERazerChroma.h; sourceTree = "<group>"; };
+		309F23EA21DB9B3F00A27B95 /* GERazerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerKit.h; path = chroma/GERazerKit.h; sourceTree = "<group>"; };
+		309F23EB21DB9B3F00A27B95 /* GERazerStandardMessages.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerStandardMessages.c; path = chroma/GERazerStandardMessages.c; sourceTree = "<group>"; };
+		309F23EC21DB9B3F00A27B95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = chroma/main.m; sourceTree = "<group>"; };
+		309F23ED21DB9B3F00A27B95 /* GERazerMamba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerMamba.h; path = chroma/GERazerMamba.h; sourceTree = "<group>"; };
+		309F23EE21DB9B3F00A27B95 /* GERazerIPC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerIPC.c; path = chroma/GERazerIPC.c; sourceTree = "<group>"; };
+		309F23EF21DB9B3F00A27B95 /* GERazerStandardBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GERazerStandardBehavior.h; path = chroma/GERazerStandardBehavior.h; sourceTree = "<group>"; };
+		309F23F021DB9B3F00A27B95 /* GERazerUtils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = GERazerUtils.c; path = chroma/GERazerUtils.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309D4B3D21DB99E8001675C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309D4B3721DB99E8001675C6 = {
+			isa = PBXGroup;
+			children = (
+				309F23E521DB9B3F00A27B95 /* GERazerChroma.c */,
+				309F23E921DB9B3F00A27B95 /* GERazerChroma.h */,
+				309F23EE21DB9B3F00A27B95 /* GERazerIPC.c */,
+				309F23E821DB9B3F00A27B95 /* GERazerIPC.h */,
+				309F23EA21DB9B3F00A27B95 /* GERazerKit.h */,
+				309F23ED21DB9B3F00A27B95 /* GERazerMamba.h */,
+				309F23E421DB9B3F00A27B95 /* GERazerMessage.c */,
+				309F23E721DB9B3F00A27B95 /* GERazerMessage.h */,
+				309F23E321DB9B3F00A27B95 /* GERazerStandardBehavior.c */,
+				309F23EF21DB9B3F00A27B95 /* GERazerStandardBehavior.h */,
+				309F23EB21DB9B3F00A27B95 /* GERazerStandardMessages.c */,
+				309F23E621DB9B3F00A27B95 /* GERazerStandardMessages.h */,
+				309F23F021DB9B3F00A27B95 /* GERazerUtils.c */,
+				309F23E221DB9B3F00A27B95 /* GERazerUtils.h */,
+				309F23EC21DB9B3F00A27B95 /* main.m */,
+				309D4B4221DB99E8001675C6 /* chroma */,
+				309D4B4121DB99E8001675C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309D4B4121DB99E8001675C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309D4B4021DB99E8001675C6 /* chroma */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309D4B4221DB99E8001675C6 /* chroma */ = {
+			isa = PBXGroup;
+			children = (
+				309D4B4321DB99E8001675C6 /* main.m */,
+			);
+			path = chroma;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309D4B3F21DB99E8001675C6 /* chroma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309D4B4721DB99E8001675C6 /* Build configuration list for PBXNativeTarget "chroma" */;
+			buildPhases = (
+				309D4B3C21DB99E8001675C6 /* Sources */,
+				309D4B3D21DB99E8001675C6 /* Frameworks */,
+				309D4B3E21DB99E8001675C6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chroma;
+			productName = chroma;
+			productReference = 309D4B4021DB99E8001675C6 /* chroma */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309D4B3821DB99E8001675C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Roman;
+				TargetAttributes = {
+					309D4B3F21DB99E8001675C6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 309D4B3B21DB99E8001675C6 /* Build configuration list for PBXProject "chroma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 309D4B3721DB99E8001675C6;
+			productRefGroup = 309D4B4121DB99E8001675C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309D4B3F21DB99E8001675C6 /* chroma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309D4B3C21DB99E8001675C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309F23F121DB9B3F00A27B95 /* GERazerUtils.h in Sources */,
+				309F23F221DB9B3F00A27B95 /* GERazerStandardBehavior.c in Sources */,
+				309F23F321DB9B3F00A27B95 /* GERazerMessage.c in Sources */,
+				309F23F421DB9B3F00A27B95 /* GERazerChroma.c in Sources */,
+				309F23F521DB9B3F00A27B95 /* GERazerStandardMessages.h in Sources */,
+				309F23F621DB9B3F00A27B95 /* GERazerMessage.h in Sources */,
+				309F23F721DB9B3F00A27B95 /* GERazerIPC.h in Sources */,
+				309F23F821DB9B3F00A27B95 /* GERazerChroma.h in Sources */,
+				309F23F921DB9B3F00A27B95 /* GERazerKit.h in Sources */,
+				309F23FA21DB9B3F00A27B95 /* GERazerStandardMessages.c in Sources */,
+				309D4B4421DB99E8001675C6 /* main.m in Sources */,
+				309F23FB21DB9B3F00A27B95 /* GERazerMamba.h in Sources */,
+				309F23FC21DB9B3F00A27B95 /* GERazerIPC.c in Sources */,
+				309F23FD21DB9B3F00A27B95 /* GERazerStandardBehavior.h in Sources */,
+				309F23FE21DB9B3F00A27B95 /* GERazerUtils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		309D4B4521DB99E8001675C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		309D4B4621DB99E8001675C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		309D4B4821DB99E8001675C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309D4B4921DB99E8001675C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309D4B3B21DB99E8001675C6 /* Build configuration list for PBXProject "chroma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309D4B4521DB99E8001675C6 /* Debug */,
+				309D4B4621DB99E8001675C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309D4B4721DB99E8001675C6 /* Build configuration list for PBXNativeTarget "chroma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309D4B4821DB99E8001675C6 /* Debug */,
+				309D4B4921DB99E8001675C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309D4B3821DB99E8001675C6 /* Project object */;
+}
