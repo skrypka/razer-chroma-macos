@@ -17,4 +17,4 @@ I'm using this with [Hammerspoon](http://www.hammerspoon.org) and Pomodoro Techn
 
 ## How to build
 
-Clone repo and just start XCode. Or you can download program from release.
+Clone repo and just start XCode. Or you can download program from [release](https://github.com/skrypka/razer-chroma-macos/releases/tag/0.1).
