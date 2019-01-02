@@ -30,8 +30,8 @@ CFMutableDictionaryRef getFirstProfileWithName(CFArrayRef profiles, CFStringRef 
 
 int main(int argc, const char *argv[])
 {
-    if (argc != 5) {
-        fprintf(stderr, "Usage: ./chroma device_id red green blue\nFor example ./chroma 4 1 0.1 0\n");
+    if (argc < 5) {
+        fprintf(stderr, "Usage: ./chroma device_id red green blue [static|breathing]\nFor example:\n ./chroma 4 1 0.1 0\n ./chroma 4 1 0.1 0 breathing\n");
         return 1;
     }
     SInt32 connectStatus = GERazerConnect(NULL);
@@ -115,6 +115,7 @@ int main(int argc, const char *argv[])
     // Configure effects
     CFMutableDictionaryRef deviceEffects = CFDictionaryCreateMutable(kCFAllocatorDefault, 0, &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
     GERazerDictionarySetThenReleaseValue(deviceEffects, kGERazerEffectNameStatic, GERazerEffectCreateStatic(red, green, blue));
+    GERazerDictionarySetThenReleaseValue(deviceEffects, kGERazerEffectNameBreathing, GERazerEffectCreateBreathing(red, green, blue, red, green, blue));
     
     CFStringRef deviceIdString = GERazerStringCreateFromInt(deviceId);
     
@@ -128,7 +129,14 @@ int main(int argc, const char *argv[])
     
     CFRelease(effectList);
     
-    GERazerDictionaryRecursivelyMergeThenReleaseDictionary(deviceSettings, GERazerDeviceSettingsCreateWithEnabledLightingEffect(deviceId, kGERazerEffectIdStatic, kGERazerLightingBrightnessNormal));
+    SInt32 effect_type;
+    if (argc == 6 && strcmp(argv[5], "breathing") == 0) {
+        effect_type = kGERazerEffectIdBreathing;
+    } else {
+        effect_type = kGERazerEffectIdStatic;
+    }
+    
+    GERazerDictionaryRecursivelyMergeThenReleaseDictionary(deviceSettings, GERazerDeviceSettingsCreateWithEnabledLightingEffect(deviceId, effect_type, kGERazerLightingBrightnessNormal));
     
     if (followingProductId >= 0)
     {
